@@ -1,5 +1,3 @@
-<center><strong>Enhance the boring Minecraft Vanilla with</strong></center><br/>
-
 ![Banner Image](https://cdn-raw.modrinth.com/data/IsNu5zcX/images/adcee4d20301aa1fb495e47c3da99f00d667c4e2.jpeg)
 
 <center>Vanilla Enhance is a Fabric Modpack that focuses on enhancing the empty and plains current Vanilla Minecraft. This modpack adds various Structures, Bosses, and Overhauled Advancements to make Minecraft more challenging and fun to explore</center>
