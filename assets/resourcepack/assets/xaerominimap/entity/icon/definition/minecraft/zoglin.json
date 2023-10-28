@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/hoglin/zoglin.png",
+		"layersAllowed": true
+	  }
+  }

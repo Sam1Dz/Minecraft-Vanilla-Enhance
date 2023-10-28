@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/creeper/creeper.png",
+		"layersAllowed": true
+	  }
+  }

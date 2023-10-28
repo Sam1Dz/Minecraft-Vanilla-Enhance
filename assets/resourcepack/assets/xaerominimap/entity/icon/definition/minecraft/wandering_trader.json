@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/wandering_trader.png",
+		"layersAllowed": true
+	  }
+  }

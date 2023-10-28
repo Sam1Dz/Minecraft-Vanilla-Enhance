@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/horse/horse_zombie.png",
+		"layersAllowed": true
+	  }
+  }

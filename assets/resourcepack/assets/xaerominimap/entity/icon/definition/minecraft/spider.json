@@ -1,0 +1,10 @@
+
+{
+
+	"variants" : {
+		"minecraft:textures/entity/spider/spider.png" : "sprite:minecraft/spider/spider.png",
+		"minecraft:textures/entity/spider/cave_spider.png" : "sprite:minecraft/spider/cave_spider.png",
+		"default" : "sprite:minecraft/spider/blank.png",
+		"layersAllowed": true
+	  }
+  }

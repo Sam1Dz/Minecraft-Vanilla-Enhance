@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/illager/vex.png",
+		"layersAllowed": true
+	  }
+  }

@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/slime/magmacube.png",
+		"layersAllowed": true
+	  }
+  }

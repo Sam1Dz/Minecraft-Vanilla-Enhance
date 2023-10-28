@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/zombie/husk.png",
+		"layersAllowed": true
+	  }
+  }

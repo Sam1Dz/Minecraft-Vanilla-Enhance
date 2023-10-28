@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/zombie/drowned.png",
+		"layersAllowed": true
+	  }
+  }

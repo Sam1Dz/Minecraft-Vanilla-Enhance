@@ -1,0 +1,11 @@
+
+{
+	"variants" : {
+		"minecraft:textures/entity/fox/fox.png" : "sprite:minecraft/fox/fox.png",
+		"minecraft:textures/entity/fox/fox_sleep.png" : "sprite:minecraft/fox/fox_sleep.png",
+		"minecraft:textures/entity/fox/snow_fox.png" : "sprite:minecraft/fox/snow_fox.png",
+		"minecraft:textures/entity/fox/snow_fox_sleep.png" : "sprite:minecraft/fox/snow_fox_sleep.png",
+		"default" : "sprite:minecraft/fox/blank.png",
+		"layersAllowed": true
+	  }
+  }

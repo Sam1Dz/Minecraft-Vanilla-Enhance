@@ -19,6 +19,10 @@
 - **[Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)** & **[World Map](https://modrinth.com/mod/xaeros-world-map)**
 - **_200+ Mods with Great Performance! (4GB Minimum, 6GB Recommended)_**
 
+## Gameplay
+
+<p align="center">COMING SOON</p>
+
 <hr />
 <p align="center">
 	<a href="https://modrinth.com/modpack/vanilla-enhance">

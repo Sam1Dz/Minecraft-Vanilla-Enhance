@@ -1,0 +1,10 @@
+
+{
+	"variants" : {
+		"minecraft:textures/entity/wolf/wolf.png%false" : "sprite:minecraft/wolf/wolf.png",
+		"minecraft:textures/entity/wolf/wolf_angry.png%false" : "sprite:minecraft/wolf/wolf_angry.png",
+		"minecraft:textures/entity/wolf/wolf_tame.png%true" : "sprite:minecraft/wolf/wolf_tame.png",
+		"default" : "sprite:minecraft/wolf/blank.png",
+		"layersAllowed": true
+	  }
+  }

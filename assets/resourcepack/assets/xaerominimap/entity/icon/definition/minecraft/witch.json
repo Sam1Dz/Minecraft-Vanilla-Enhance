@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/witch.png",
+		"layersAllowed": true
+	  }
+  }

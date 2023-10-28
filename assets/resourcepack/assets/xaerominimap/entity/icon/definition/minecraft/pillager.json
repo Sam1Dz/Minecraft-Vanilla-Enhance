@@ -1,0 +1,7 @@
+
+{
+	"variants" : {
+		"default" : "sprite:minecraft/illager/pillager.png",
+		"layersAllowed": true
+	  }
+  }
