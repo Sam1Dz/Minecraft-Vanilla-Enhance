@@ -1,6 +1,10 @@
+<p align="center">
+  <strong>Enhance the boring Minecraft Vanilla with</strong>
+</p>
+
 ![Banner Image](https://cdn-raw.modrinth.com/data/IsNu5zcX/images/adcee4d20301aa1fb495e47c3da99f00d667c4e2.jpeg)
 
-<center>Vanilla Enhance is a Fabric Modpack that focuses on enhancing the empty and plains current Vanilla Minecraft. This modpack adds various Structures, Bosses, and Overhauled Advancements to make Minecraft more challenging and fun to explore</center>
+<p align="center">Vanilla Enhance is a Fabric Modpack that focuses on enhancing the empty and plains current Vanilla Minecraft. This modpack adds various Structures, Bosses, and Overhauled Advancements to make Minecraft more challenging and fun to explore</p>
 
 ## Main Features
 
@@ -14,3 +18,10 @@
 - Controller Support **([Controlify](https://modrinth.com/mod/controlify))**
 - **[Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)** & **[World Map](https://modrinth.com/mod/xaeros-world-map)**
 - **_200+ Mods with Great Performance! (4GB Minimum, 6GB Recommended)_**
+
+<hr />
+<p align="center">
+	<a href="https://modrinth.com/modpack/vanilla-enhance">
+		<img  width="184"  src="https://raw.githubusercontent.com/modrinth/art/8dd06a57c70224221974a966b2962b79f6b841f2/Branding/Badge/badge-dark.svg" alt="Modrinth Badge Dark">
+  </a>
+</p>
