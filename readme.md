@@ -21,7 +21,7 @@
 
 ## Gameplay
 
-<p align="center">COMING SOON</p>
+[![First Night Gameplay in Vanilla Enhance!](https://img.youtube.com/vi/YDW2atFk21k/0.jpg)](https://youtu.be/YDW2atFk21k)
 
 <hr />
 <p align="center">
