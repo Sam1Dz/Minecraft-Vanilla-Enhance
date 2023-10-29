@@ -21,11 +21,12 @@
 
 ## Gameplay
 
-[![First Night Gameplay in Vanilla Enhance!](https://img.youtube.com/vi/YDW2atFk21k/0.jpg)](https://youtu.be/YDW2atFk21k)
-
+<p align="center">
+	<a href="https://youtu.be/YDW2atFk21k"><img src="https://img.youtube.com/vi/YDW2atFk21k/0.jpg" /></a>
+</p>
 <hr />
 <p align="center">
 	<a href="https://modrinth.com/modpack/vanilla-enhance">
 		<img  width="184"  src="https://raw.githubusercontent.com/modrinth/art/8dd06a57c70224221974a966b2962b79f6b841f2/Branding/Badge/badge-dark.svg" alt="Modrinth Badge Dark">
-  </a>
+	</a>
 </p>
