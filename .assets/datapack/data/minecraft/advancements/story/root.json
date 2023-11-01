@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "title": { "translate": "Benchmarking" },
+    "description": {
+      "color": "green",
+      "translate": "Construct a crafting bench with four wooden planks"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:bacap/getting_wood",
+  "rewards": {
+    "function": "bc_rewards:bacap/benchmarking"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table",
+              "variantcraftingtables:acacia_crafting_table",
+              "variantcraftingtables:bamboo_crafting_table",
+              "variantcraftingtables:birch_crafting_table",
+              "variantcraftingtables:cherry_crafting_table",
+              "variantcraftingtables:crimson_crafting_table",
+              "variantcraftingtables:dark_oak_crafting_table",
+              "variantcraftingtables:jungle_crafting_table",
+              "variantcraftingtables:mangrove_crafting_table",
+              "variantcraftingtables:spruce_crafting_table",
+              "variantcraftingtables:warped_crafting_table",
+              "variantcraftingtables:dad_echo_crafting_table"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

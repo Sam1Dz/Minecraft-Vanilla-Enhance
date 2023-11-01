@@ -1,0 +1,144 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "title": { "translate": "Time to Mine!" },
+    "description": {
+      "color": "green",
+      "translate": "Use planks and sticks to make a pickaxe"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "minecraft:story/root",
+  "rewards": {
+    "function": "bc_rewards:bacap/time_to_mine"
+  },
+  "criteria": {
+    "wooden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:wooden_pickaxe"]
+          }
+        ]
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:stone_pickaxe"]
+          }
+        ]
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:iron_pickaxe"]
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_pickaxe"]
+          }
+        ]
+      }
+    },
+    "golden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:golden_pickaxe"]
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:netherite_pickaxe"]
+          }
+        ]
+      }
+    },
+    "netherite_iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["advancednetherite:netherite_iron_pickaxe"]
+          }
+        ]
+      }
+    },
+    "netherite_gold_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["advancednetherite:netherite_gold_pickaxe"]
+          }
+        ]
+      }
+    },
+    "netherite_emerald_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["advancednetherite:netherite_emerald_pickaxe"]
+          }
+        ]
+      }
+    },
+    "netherite_diamond_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["advancednetherite:netherite_diamond_pickaxe"]
+          }
+        ]
+      }
+    },
+    "warden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["deeperdarker:warden_pickaxe"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_pickaxe",
+      "stone_pickaxe",
+      "iron_pickaxe",
+      "diamond_pickaxe",
+      "golden_pickaxe",
+      "netherite_pickaxe",
+      "netherite_iron_pickaxe",
+      "netherite_gold_pickaxe",
+      "netherite_emerald_pickaxe",
+      "netherite_diamond_pickaxe",
+      "warden_pickaxe"
+    ]
+  ]
+}
