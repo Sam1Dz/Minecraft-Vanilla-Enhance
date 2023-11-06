@@ -1,0 +1,113 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ore"
+    },
+    "title": { "translate": "Gold Mine!" },
+    "description": {
+      "color": "green",
+      "translate": "Find a mineshaft on a mesa biome"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:mining/this_is_mine_now",
+  "rewards": {
+    "function": "bc_rewards:mining/gold_mine"
+  },
+  "criteria": {
+    "mineshaft_mesa": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mineshaft_mesa"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "better_mineshafts_mineshaft_mesa": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "bettermineshafts:mineshaft_mesa"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "better_mineshafts_mineshaft_red_desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "bettermineshafts:mineshaft_red_desert"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mineshaft_mesa",
+      "better_mineshafts_mineshaft_mesa",
+      "better_mineshafts_mineshaft_red_desert"
+    ]
+  ]
+}

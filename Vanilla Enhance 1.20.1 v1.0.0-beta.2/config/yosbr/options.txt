@@ -31,8 +31,8 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:12
-simulationDistance:12
+renderDistance:10
+simulationDistance:10
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
@@ -40,10 +40,10 @@ maxFps:260
 graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
-biomeBlendRadius:2
+biomeBlendRadius:7
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","continuity:default","continuity:glass_pane_culling_fix","presencefootsteps:default_sound_pack","seasons:seasonal_lush_caves","minecraft:supporteatinganimation","Moonlight Mods Dynamic Assets","supplementaries:darker_ropes","$polymer-resources","file/Stay_True_1.20.zip","file/NoBushyLeaves.zip","file/FreshAnimations_v1.8.1.zip","file/MoreMobVariants_FreshAnimations_1.2.2-1.8.1.zip","file/crops-3d.zip","file/FarmersDelightCrops3DwAddons1.18.zip","file/3D Dripstone.zip","file/Chat Reporting Helper.zip","file/Techno_DP_RP_1.2.2.zip","file/[1.3] Enhanced Boss Bars.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/Visual+Titles.zip","file/Vanilla+Advancement.zip","file/Vanilla+Enhance+Base+Pack.zip"]
-incompatibleResourcePacks:["supplementaries:darker_ropes","file/FreshAnimations_v1.8.1.zip","file/MoreMobVariants_FreshAnimations_1.2.2-1.8.1.zip","file/FarmersDelightCrops3DwAddons1.18.zip","file/3D Dripstone.zip","file/Chat Reporting Helper.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/Visual+Titles.zip","file/Vanilla+Advancement.zip"]
+resourcePacks:["vanilla","fabric","continuity:default","continuity:glass_pane_culling_fix","presencefootsteps:default_sound_pack","seasons:seasonal_lush_caves","minecraft:supporteatinganimation","Moonlight Mods Dynamic Assets","supplementaries:darker_ropes","$polymer-resources","file/Stay_True_1.20.zip","file/FreshAnimations_v1.8.1.zip","file/MoreMobVariants_FreshAnimations_1.2.2-1.8.1.zip","file/crops-3d.zip","file/FarmersDelightCrops3DwAddons1.18.zip","file/3D Dripstone.zip","file/Chat Reporting Helper.zip","file/Techno_DP_RP_1.2.2.zip","file/[1.3] Enhanced Boss Bars.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/Vanilla+Advancement.zip","file/Visual+Titles.zip","file/UniqueDark_1.20.1.zip","file/Vanilla+Enhance+Base+Pack.zip"]
+incompatibleResourcePacks:["supplementaries:darker_ropes","file/FreshAnimations_v1.8.1.zip","file/MoreMobVariants_FreshAnimations_1.2.2-1.8.1.zip","file/FarmersDelightCrops3DwAddons1.18.zip","file/3D Dripstone.zip","file/Chat Reporting Helper.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/Vanilla+Advancement.zip","file/Visual+Titles.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -119,6 +119,8 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_Reload Menu | CTRL + ALT + :key.keyboard.r
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.carry.desc:key.keyboard.unknown
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown

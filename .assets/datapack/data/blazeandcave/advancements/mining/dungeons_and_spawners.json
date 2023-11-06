@@ -1,0 +1,100 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "title": { "translate": "Dungeons and Spawners" },
+    "description": {
+      "color": "green",
+      "translate": "Open a chest in a dungeon deep underground"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:mining/heart_of_darkness",
+  "rewards": {
+    "function": "bc_rewards:mining/dungeons_and_spawners"
+  },
+  "criteria": {
+    "dungeon": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/simple_dungeon"
+      }
+    },
+    "skeleton_dungeon_common": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "betterdungeons:skeleton_dungeon/chests/common"
+      }
+    },
+    "skeleton_dungeon_middle": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "betterdungeons:skeleton_dungeon/chests/middle"
+      }
+    },
+    "small_dungeon_end": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "betterdungeons:small_dungeon/chests/end_loot_piles"
+      }
+    },
+    "small_dungeon_overworld": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "betterdungeons:small_dungeon/chests/loot_piles"
+      }
+    },
+    "small_dungeon_nether": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "betterdungeons:small_dungeon/chests/nether_loot_piles"
+      }
+    },
+    "small_nether_dungeon": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "betterdungeons:small_nether_dungeon/chests/common"
+      }
+    },
+    "spider_dungeon_egg_room": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "betterdungeons:spider_dungeon/chests/egg_room"
+      }
+    },
+    "zombie_dungeon_common": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "betterdungeons:zombie_dungeon/chests/common"
+      }
+    },
+    "zombie_dungeon_special": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "betterdungeons:zombie_dungeon/chests/special"
+      }
+    },
+    "zombie_dungeon_tombstone": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "betterdungeons:zombie_dungeon/chests/tombstone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dungeon",
+      "skeleton_dungeon_common",
+      "skeleton_dungeon_middle",
+      "small_dungeon_end",
+      "small_dungeon_overworld",
+      "small_dungeon_nether",
+      "small_nether_dungeon",
+      "spider_dungeon_egg_room",
+      "zombie_dungeon_common",
+      "zombie_dungeon_special",
+      "zombie_dungeon_tombstone"
+    ]
+  ]
+}

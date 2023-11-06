@@ -12,7 +12,7 @@
   "hideSigningRequestMessage": false,
   "alwaysHideReportButton": false,
   "skipRealmsWarning": false,
-  "disableTelemetry": false,
+  "disableTelemetry": true,
   "removeTelemetryButton": true,
   "demandOnServer": false,
   "verifiedIconOffsetX": 0,

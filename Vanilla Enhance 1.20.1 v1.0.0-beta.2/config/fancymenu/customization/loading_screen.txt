@@ -1,0 +1,78 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resourcepacks/.assets/loading_background.jpg
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 117
+  width = 300
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 87916725-75bb-4fdb-baba-3f1545a0a6f61698839341855
+  y = 113
+  height = 74
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = daedd365-7cc9-4d40-b812-9bf174c544151698839341887
+  y = -1000000
+  height = 0
+}
+
+customization {
+  custom_color_hex = #a3bee2
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 117
+  width = 300
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = b9f76706-1ea0-4fd0-b58b-282c6f8511db1698839341887
+  y = 244
+  height = 10
+}
+
+customization {
+  path = resourcepacks/.assets/modpack_logo.png
+  orientation = top-centered
+  x = -67
+  width = 134
+  action = addtexture
+  actionid = 95e78dac-4708-4ede-a75f-45cc9ff9224f1698839721275
+  y = 30
+  height = 25
+}
+
+customization {
+  path = resourcepacks/.assets/mojang_logo.png
+  orientation = mid-centered
+  x = -160
+  width = 320
+  action = addtexture
+  actionid = 7fb9ac3f-e58d-4db2-8ace-82ec71606f981698840576479
+  y = -38
+  height = 76
+}
+
