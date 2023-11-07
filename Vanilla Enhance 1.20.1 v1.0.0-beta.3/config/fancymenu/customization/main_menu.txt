@@ -1,0 +1,224 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 58
+}
+
+customization {
+  identifier = %id=2980%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 58
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 58
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 58
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = a1f8ef3d-6bfc-442c-a754-cb7ef4fc17551699342376104
+  y = 236
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 503
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 15e929b1-cda4-402e-931d-dfecff0ed0841699342376104
+  y = 212
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 263
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = c756ca6b-53ac-40c9-a05e-318fb9a9ee301699342376104
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = false
+  x = 105
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 173cb56c-c863-4e28-95c3-2f225412241e1699342376104
+  y = 75
+  height = 30
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = bcc8a6da-9eb3-45ee-a9b7-dec5961b1e721699342472914
+  y = 10
+  height = 100
+}
+
+customization {
+  path = resourcepacks/.assets/modpack_logo.png
+  orientation = top-centered
+  x = -137
+  width = 274
+  action = addtexture
+  actionid = 327b73f9-594b-4eb2-9cf2-48ed449fdc941699342568742
+  y = 25
+  height = 52
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = v1.0.0-beta.3
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -100
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d64b9c6e-f040-4ade-b66c-070bc3fbfba71699344636117
+  y = 86
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = mid-centered
+  shape = rectangle
+  color = #292929CC
+  x = -100
+  width = 200
+  action = addshape
+  actionid = d4a81920-f417-4cce-a972-3f2b7193cd541699344941196
+  y = 82
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://modrinth.com/modpack/vanilla-enhance/%btnaction_splitter_fm%
+  x = 104
+  width = 20
+  action = addbutton
+  actionid = 56eb9679-7f77-4a56-b2da-c834f433d9d11699345896738
+  y = 34
+  label = 
+  height = 20
+}
+
+customization {
+  path = resourcepacks/.assets/modrinth_logo.png
+  orientation = mid-centered
+  x = 109
+  width = 10
+  action = addtexture
+  actionid = aefab952-c805-4588-8722-c8c486ffda4c1699346174747
+  y = 38
+  height = 10
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Minecraft 1.20.1/Fabric 0.14.24 (API 0.90.7)
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 218
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4175e34c-94f2-4d56-a1a5-f13c1a7fc19b1699348113586
+  y = -12
+  alignment = left
+  height = 12
+}
+

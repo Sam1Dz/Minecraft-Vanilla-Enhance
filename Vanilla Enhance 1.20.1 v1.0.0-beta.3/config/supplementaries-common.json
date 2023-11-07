@@ -148,7 +148,8 @@
     },
     "planter": {
       "enabled": true,
-      "broken_by_sapling": true
+      "broken_by_sapling": true,
+      "rich_soil_planter": true
     },
     "notice_board": {
       "enabled": true,
@@ -290,6 +291,9 @@
   },
   "tweaks": {
     "shulker_helmet": {
+      "enabled": true
+    },
+    "golden_apple_disenchant": {
       "enabled": true
     },
     "dye_blocks": {
