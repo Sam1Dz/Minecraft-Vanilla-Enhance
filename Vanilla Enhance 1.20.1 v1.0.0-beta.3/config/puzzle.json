@@ -7,9 +7,9 @@
   "resourcepackSplashScreen": true,
   "unlimitedRotations": true,
   "biggerModels": true,
-  "backgroundColor": -15658732,
-  "progressBarColor": -1251879,
-  "progressBarBackgroundColor": -9280165,
+  "backgroundColor": 15675965,
+  "progressBarColor": 16777215,
+  "progressBarBackgroundColor": 15675965,
   "progressFrameColor": 16777215,
   "disableBlend": false
 }

@@ -58,7 +58,8 @@
       "enabled": true,
       "block_side_attachment": true,
       "slide_on_fall": true,
-      "rope_override": "supplementaries:rope"
+      "rope_override": "supplementaries:rope",
+      "horizontal_ropes": true
     },
     "jar": {
       "enabled": true,
@@ -272,7 +273,8 @@
       "allow_splash_potions": false,
       "allow_bombs": false,
       "allow_fire_charges": false,
-      "allow_snowballs": false
+      "allow_snowballs": false,
+      "allow_enderpearls": false
     },
     "antique_ink": {
       "enabled": true,

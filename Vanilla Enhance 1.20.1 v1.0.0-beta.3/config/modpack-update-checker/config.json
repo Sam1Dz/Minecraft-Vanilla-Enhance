@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 4,
+  "currentVersion": "v1.0.0-beta.3",
+  "modpackName": "Vanilla Enhance",
+  "modpackAuthor": "Sam1Dz",
+  "githubRepo": "https://raw.githubusercontent.com/Sam1Dz/MC-Modpack-Version-Checker/main/vanilla-enhance-120/",
+  "advanced": {
+    "bccEnabled": true,
+    "expandButton": true,
+    "updateCheckerType": 2,
+    "showAllChangelogsIfUpToDate": false
+  }
+}

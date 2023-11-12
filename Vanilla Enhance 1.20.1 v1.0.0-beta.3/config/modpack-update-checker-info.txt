@@ -1,0 +1,1 @@
+Updating the modpack will not corrupt or damage your world, unless specified in the changelog. Nonetheless, you should always make a copy of your Saves folder before updating.

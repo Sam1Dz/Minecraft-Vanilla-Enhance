@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","continuity:default","continuity:glass_pane_culling_fix","presencefootsteps:default_sound_pack","seasons:seasonal_lush_caves","minecraft:supporteatinganimation","Moonlight Mods Dynamic Assets","supplementaries:darker_ropes","$polymer-resources","file/Stay_True_1.20.zip","file/FreshAnimations_v1.8.1.zip","file/MoreMobVariants_FreshAnimations_1.2.2-1.8.1.zip","file/crops-3d.zip","file/FarmersDelightCrops3DwAddons1.18.zip","file/3D Dripstone.zip","file/Chat Reporting Helper.zip","file/Techno_DP_RP_1.2.2.zip","file/[1.3] Enhanced Boss Bars.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/Vanilla+Advancement.zip","file/Visual+Titles.zip","file/UniqueDark_1.20.1.zip","file/Vanilla+Enhance+Base+Pack.zip"]
-incompatibleResourcePacks:["supplementaries:darker_ropes","file/FreshAnimations_v1.8.1.zip","file/MoreMobVariants_FreshAnimations_1.2.2-1.8.1.zip","file/FarmersDelightCrops3DwAddons1.18.zip","file/3D Dripstone.zip","file/Chat Reporting Helper.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/Vanilla+Advancement.zip","file/Visual+Titles.zip"]
+resourcePacks:["vanilla","fabric","continuity:default","continuity:glass_pane_culling_fix","presencefootsteps:default_sound_pack","seasons:seasonal_lush_caves","minecraft:supporteatinganimation","Moonlight Mods Dynamic Assets","supplementaries:darker_ropes","$polymer-resources","file/xali\u0027s Enhanced Vanilla v1.11.1.zip","file/Fancy Crops v1.0 pf5-18.zip","betterbeds:fancyconnectedbeds","file/FreshAnimations_v1.8.1.zip","file/MoreMobVariants_FreshAnimations_1.2.2-1.8.1.zip","file/3D Dripstone.zip","file/Chat Reporting Helper.zip","file/Techno_DP_RP_1.2.2.zip","file/[1.3] Enhanced Boss Bars.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/Vanilla+Advancement.zip","file/Visual+Titles.zip","file/UniqueDark_1.20.1.zip","file/Vanilla+Enhance+Base+Pack.zip"]
+incompatibleResourcePacks:["supplementaries:darker_ropes","file/xali\u0027s Enhanced Vanilla v1.11.1.zip","file/Fancy Crops v1.0 pf5-18.zip","betterbeds:fancyconnectedbeds","file/FreshAnimations_v1.8.1.zip","file/MoreMobVariants_FreshAnimations_1.2.2-1.8.1.zip","file/3D Dripstone.zip","file/Chat Reporting Helper.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/Vanilla+Advancement.zip","file/Visual+Titles.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -122,6 +122,8 @@ key_key.hotbar.9:key.keyboard.9
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.carry.desc:key.keyboard.unknown
+key_key.cavedust.toggle:key.keyboard.keypad.add
+key_key.cavedust.reload:key.keyboard.keypad.enter
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
@@ -136,7 +138,6 @@ key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_key.pickup.item:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.v
-key_key.optigui.inspect:key.keyboard.f12
 key_ping-wheel.key.mark-location:key.keyboard.z
 key_ping-wheel.key.open-settings:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.f10

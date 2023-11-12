@@ -43,26 +43,26 @@ customization {
 
 customization {
   custom_color_hex = #a3bee2
-  orientation = top-left
+  orientation = mid-centered
   hidden = false
-  original_pos_size_calculation = true
-  x = 117
-  width = 300
+  original_pos_size_calculation = false
+  x = -124
+  width = 248
   action = deep_customization_element:drippy_overlay_progress_bar
   actionid = b9f76706-1ea0-4fd0-b58b-282c6f8511db1698839341887
-  y = 244
+  y = 77
   height = 10
 }
 
 customization {
   path = resourcepacks/.assets/modpack_logo.png
-  orientation = top-centered
-  x = -67
-  width = 134
+  orientation = mid-centered
+  x = -68
+  width = 137
   action = addtexture
   actionid = 95e78dac-4708-4ede-a75f-45cc9ff9224f1698839721275
-  y = 30
-  height = 25
+  y = -94
+  height = 26
 }
 
 customization {

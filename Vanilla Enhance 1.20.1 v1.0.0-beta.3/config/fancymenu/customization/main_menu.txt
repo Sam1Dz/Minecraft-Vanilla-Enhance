@@ -38,6 +38,12 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttondescription
+  description = Accessibility
+}
+
+customization {
   identifier = %id=2980%
   action = hidebutton
 }
@@ -53,6 +59,27 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
+}
+
+customization {
+  identifier = %id=376286%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 34
+}
+
+customization {
+  identifier = %id=376286%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376286%
+  action = setbuttonlabel
+  value = 
 }
 
 customization {
@@ -77,6 +104,12 @@ customization {
   x = -124
   action = movebutton
   y = 58
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttondescription
+  description = Language
 }
 
 customization {
@@ -113,7 +146,7 @@ customization {
 }
 
 customization {
-  orientation = top-centered
+  orientation = mid-centered
   splash_color = #ffff00
   hidden = false
   x = 105
@@ -121,7 +154,7 @@ customization {
   splash_rotation = -20
   action = deep_customization_element:title_screen_splash
   actionid = 173cb56c-c863-4e28-95c3-2f225412241e1699342376104
-  y = 75
+  y = -49
   height = 30
 }
 
@@ -138,44 +171,13 @@ customization {
 
 customization {
   path = resourcepacks/.assets/modpack_logo.png
-  orientation = top-centered
+  orientation = mid-centered
   x = -137
   width = 274
   action = addtexture
   actionid = 327b73f9-594b-4eb2-9cf2-48ed449fdc941699342568742
-  y = 25
+  y = -99
   height = 52
-}
-
-customization {
-  orientation = mid-centered
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = v1.0.0-beta.3
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = -100
-  width = 200
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = d64b9c6e-f040-4ade-b66c-070bc3fbfba71699344636117
-  y = 86
-  alignment = centered
-  height = 40
-}
-
-customization {
-  orientation = mid-centered
-  shape = rectangle
-  color = #292929CC
-  x = -100
-  width = 200
-  action = addshape
-  actionid = d4a81920-f417-4cce-a972-3f2b7193cd541699344941196
-  y = 82
-  height = 20
 }
 
 customization {
@@ -188,6 +190,7 @@ customization {
   action = addbutton
   actionid = 56eb9679-7f77-4a56-b2da-c834f433d9d11699345896738
   y = 34
+  description = Modrinth Page
   label = 
   height = 20
 }
@@ -208,17 +211,42 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Minecraft 1.20.1/Fabric 0.14.24 (API 0.90.7)
+  source = Minecraft 1.20.1/Fabric 0.14.24 (API 0.90.7+1.20.1)
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
   x = 1
-  width = 218
+  width = 252
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 4175e34c-94f2-4d56-a1a5-f13c1a7fc19b1699348113586
   y = -12
   alignment = left
   height = 12
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = -124
+  width = 20
+  action = addbutton
+  actionid = 20ea077a-7486-45eb-bb3c-a7f3092e4ead1699783799871
+  y = 34
+  description = Check for updates
+  label = 
+  height = 20
+}
+
+customization {
+  path = resourcepacks/.assets/update_icon.png
+  orientation = mid-centered
+  x = -119
+  width = 10
+  action = addtexture
+  actionid = 4e7a5e40-e111-401b-9931-36a7faf4f0841699784086030
+  y = 38
+  height = 10
 }
 

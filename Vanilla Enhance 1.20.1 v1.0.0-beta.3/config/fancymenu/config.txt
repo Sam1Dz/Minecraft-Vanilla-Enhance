@@ -17,7 +17,7 @@ I:defaultguiscale = '-1';
 ##[customization]
 
 B:advancedmode = 'false';
-B:showcustomizationbuttons = 'true';
+B:showcustomizationbuttons = 'false';
 
 
 ##[loading]
@@ -32,9 +32,9 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'Vanilla Enhance';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[world_loading_screen]

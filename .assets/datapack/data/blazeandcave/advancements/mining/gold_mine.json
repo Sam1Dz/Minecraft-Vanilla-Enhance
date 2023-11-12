@@ -44,7 +44,7 @@
         ]
       }
     },
-    "better_mineshafts_mineshaft_mesa": {
+    "bm_mineshaft_mesa": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -73,7 +73,7 @@
         ]
       }
     },
-    "better_mineshafts_mineshaft_red_desert": {
+    "bm_mineshaft_red_desert": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -104,10 +104,6 @@
     }
   },
   "requirements": [
-    [
-      "mineshaft_mesa",
-      "better_mineshafts_mineshaft_mesa",
-      "better_mineshafts_mineshaft_red_desert"
-    ]
+    ["mineshaft_mesa", "bm_mineshaft_mesa", "bm_mineshaft_red_desert"]
   ]
 }
